@@ -1,0 +1,26 @@
+/*-----NAV BAR STYLING-----*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a {
+    display: block;
+    color: #f3fcf2;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+.active {
+    background-color: #4287f5;
+    color: white;
+}
+/*-----END NAV BAR---*/
